@@ -1,0 +1,8 @@
+GABARITO DIDÁTICO - MANTO DA TORCIDA
+
+Abra index.html em um navegador.
+Todo o site usa apenas HTML5 (sem CSS e sem JavaScript).
+As imagens são SVG locais criadas para o exemplo, na pasta imagens/.
+Os vídeos estão incorporados do YouTube e dependem de internet e permissão de embed.
+O formulário serve só para demonstrar a estrutura HTML; não envia dados reais.
+Os produtos e preços são fictícios.

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato - Manto da Torcida</title>
+</head>
+<body>
+  <header>
+    <h1>Manto da Torcida</h1>
+    <p>Camisas de futebol para quem vive a paixão pelo esporte!</p>
+    <nav aria-label="Menu principal"><a href="index.html">Início</a> | <a href="produtos.html">Produtos</a> | <a href="contato.html">Contato</a> | <a href="apresentacao.html">Apresentação</a></nav>
+  </header>
+  <hr>
+  <main>
+    <h2>Fale com a Manto da Torcida</h2>
+    <p>Preencha o formulário para solicitar informações sobre nossos produtos. Esta é uma demonstração: os dados não são enviados.</p>
+    <form action="#" method="get">
+      <p><label for="nome">Nome completo:</label><br><input type="text" id="nome" name="nome" required></p>
+      <p><label for="email">E-mail:</label><br><input type="email" id="email" name="email" required></p>
+      <p><label for="telefone">Telefone:</label><br><input type="tel" id="telefone" name="telefone"></p>
+      <p><label for="interesse">Produto de interesse:</label><br>
+        <select id="interesse" name="interesse">
+          <option value="">Selecione</option>
+          <option value="nacional">Camisa de clube nacional</option>
+          <option value="internacional">Camisa de clube internacional</option>
+          <option value="retro">Camisa retrô</option>
+        </select>
+      </p>
+      <p><label for="data">Data desejada para atendimento:</label><br><input type="date" id="data" name="data"></p>
+      <p><label for="mensagem">Mensagem:</label><br><textarea id="mensagem" name="mensagem" rows="5" cols="40" required></textarea></p>
+      <p><input type="checkbox" id="termos" name="termos" required><label for="termos"> Concordo com o uso das informações para esta simulação didática.</label></p>
+      <p><button type="submit">Enviar</button></p>
+    </form>
+    <p><strong>Atenção:</strong> este formulário demonstra os campos HTML. Não há backend nem envio real das informações.</p>
+    <p><a href="index.html">Voltar à página inicial</a></p>
+  </main>
+  <hr>
+  <footer><p>Loja fictícia criada para atividade de HTML5. Valores ilustrativos.</p></footer>
+</body>
+</html>
